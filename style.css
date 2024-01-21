@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+}
+
+.headingOne{
+    margin-top: 20vh;
+    margin-left: 43%;
+    background-color: azure;
+    width: 17.2vw;
+    background: linear-gradient(to right, #ff8a00, #da1b60, #00d2ff);
+    border: 4px solid salmon;
+    border-radius: 4px;
+
+    @media screen and (max-width: 1000px) {
+        background: none;
+        border: none;
+        margin-top: 7vh;
+        margin-left: 90px;
+    }
+}
+
+.photoBox{
+
+    display: inline;
+    position: relative; 
+    
+    .imgLot{
+       position: absolute;
+       margin-left: 31vw;
+       margin-top: 80px;
+       .lotBack{
+        width: 20vw;
+        height: 31.6vh;
+        border-radius: 4px;
+        border: 2px solid black;
+
+        @media screen and (max-width: 890px){
+            margin-top: -3vh;
+            margin-left: 10vw;
+            width: 25vw;
+            height: 22vh;
+        }
+
+        @media screen and (max-width: 700px) {
+            width: 19vh;
+            height: 19vh;
+        }
+
+        @media screen and (max-width: 450px) {
+            margin-left: 5vw;
+            margin-top: -6vh;
+        }
+
+       }
+    }
+
+    .mainInpt{
+        
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 51vw;
+        width: 20vw;          
+        height: 31.6vh;
+        border: 2px solid black;
+
+        
+        background: linear-gradient(to right, #ff8a00, #da1b60);
+        
+        border-radius: 4px;
+        .numInpt{
+            margin-left: 57px;
+            margin-top: 70px;
+            
+            @media screen and (max-width: 1300px) {
+                margin-left: 27px;
+            }
+
+            @media screen and (max-width: 450px) {
+                margin-top: 2vh;
+            }
+        }
+
+        .btnClass{
+            padding: 10px;
+            margin-top: 50px;
+            margin-left: 65px;
+            border-radius: 30%;
+            background-color: black;
+            color: aliceblue;
+
+            @media screen and (max-width: 1300px) {
+                margin-left: 30px;
+            }
+
+            @media screen and (max-width: 560px) {
+                margin-left: 40px;   
+                margin-top: 15px;
+            }
+
+            @media screen and (max-width: 480px) {
+                margin-left: 33px;
+                
+            }
+        }
+
+        .inputNum{
+            
+            padding: 3px;
+            border-radius: 20%;
+            outline: none;
+        }
+
+
+        @media screen and (max-width: 1350px) {
+            width: 20vw;
+        }
+
+        @media screen and (max-width: 890px) {
+            margin-top: 30.5vw;
+            margin-left: 38.5vw;
+            width: 30vw;
+            height: 25vh;
+            border: none;
+            background: none;
+        }
+
+        @media screen and (max-width: 782px) {
+            margin-top: 240px;
+        }
+
+        @media screen and (max-width: 564px) {
+            margin-top: 200px;
+            margin-left: 35.5vw;
+        }
+    } 
+    
+   
+}
